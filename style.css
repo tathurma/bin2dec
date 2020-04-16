@@ -1,0 +1,72 @@
+* {
+    padding:0;
+    margin-top:.5em;
+    margin-bottom:.5em;
+    font-family:sans-serif;
+}
+
+
+p {
+    font-size:1em;
+}
+
+body {
+  background:#698474;
+}
+
+#main {
+    background:#ffd3b6;
+    border-radius:15px;
+    margin: 0 auto;
+    max-width:30%;
+    margin-top: 5em;
+    padding:2em;
+    text-align:center;
+    border: 5px ridge #fcf8f3;
+}
+
+.main-header {
+    text-align:center;
+    font-size:1.75em;
+}
+
+.sub-header {
+    font-size:1em;
+}
+
+.converted-number, .original-number {
+    background:white;
+    max-width:17em;
+    font-size:1em;
+    padding:5px;
+    text-align:center;
+    border-radius:20px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    display:none;
+}
+
+.original-number {
+    margin-bottom:5px;
+}
+
+input, button {
+    padding:5px;
+}
+
+
+.show {
+    display: block;
+}
+
+.binary-input {
+    max-width: 10em;
+}
+
+.convert-button {
+    width: 5em;
+}
+
+.message {
+    color:red;
+}
